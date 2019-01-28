@@ -69,8 +69,8 @@ header .profile-image {
   margin-top: 50px;
   width: 150px;
   height: 150px;
-  border-radius: 50%;
-  border: 3px solid white;
+  border-radius: 10%;
+  border: 3px solid #f442dc;
   transition: all .2s;
 }
 header .profile-image:hover {
@@ -98,6 +98,13 @@ header .profile-image:hover {
   border-radius: 6px;
   transition: all .5s;
 }
+
+.card img {
+  margin-top: 30px;
+  max-width: 420px;
+  border-radius: 10px;
+}
+
 .card:hover {
   border-color: #41f1f4;
 }
